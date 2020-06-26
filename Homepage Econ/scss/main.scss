@@ -1,0 +1,47 @@
+@import '../scss/Sections/hero';
+@import '../scss/Sections/header';
+@import '../scss/Componets/media';
+@import '../scss/Tools/animations';
+@import '../scss/Sections/previewSquares';
+@import '../scss/Componets/slideshow';
+@import '../scss/Sections/footer';
+@import '../scss/Componets/popup';
+@import '../scss/Tools/mixins';
+@import '../scss/Tools/helper';
+@import '../scss/Sections/form';
+
+
+
+
+
+
+
+//Defaults Set
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family:sans-serif;
+    html,
+    body {
+     height: 100%;
+     position: relative;
+    }
+}
+
+.container {
+    width: 80%;
+    margin: 2rem auto;
+
+    p {
+        margin: 1rem 0;
+    }
+
+}
+
+
+
